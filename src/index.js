@@ -26,9 +26,11 @@ const {
 } = require("./routes");
 
 app.get("/", (req, res) => {
-  fs.readdir(path.join(__dirname, "taskFiles"), (err, files) => {
-    if (err) {
-      res.send("No task files found");
+  const taskFilesPath = path.join(__dirname, "taskFiles");
+
+  fs.readdir(taskFilesPath, (err, files) => {
+    if (err || files.length === 0) {
+      res.render("home", { title: "Task Manager - Home", tasks: [] });
     } else {
       res.render("home", { title: "Task Manager - Home", tasks: files });
     }
