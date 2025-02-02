@@ -6,6 +6,16 @@
 
 **Task Manager** is a full-stack web application built using **Node.js**, **Express.js**, **EJS**, and **Tailwind CSS**. The application enables users to manage their tasks effectively, providing features for creating, viewing, editing, updating, and deleting tasks. This simple yet powerful solution can be extended to meet the requirements of more complex task management systems.
 
+## Live Project Link
+
+[Task Manager Live](https://task-manager-nwrr.onrender.com) 🔗
+
+
+## GitHub Project Link
+
+[Restaurant Management System GitHub Repository](https://github.com/Sumit0134/Task-Manager) 🔗
+
+
 ### Features ✨:
 - 📝 Create new tasks
 - 👀 View and edit tasks
