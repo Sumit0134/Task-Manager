@@ -11,7 +11,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "build": "npm install"
   },
   "dependencies": {
     "colors": "^1.4.0",
