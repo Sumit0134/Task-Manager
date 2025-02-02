@@ -13,7 +13,7 @@
 
 ## GitHub Project Link
 
-[Restaurant Management System GitHub Repository](https://github.com/Sumit0134/Task-Manager) 🔗
+[Task Manager GitHub Repository](https://github.com/Sumit0134/Task-Manager) 🔗
 
 
 ### Features ✨:
